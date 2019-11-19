@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.75"
+        app:layout_constraintHeight_percent="0.85"
+        app:rowCount="5"
+        app:columnCount="4"
+
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.981">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
+            android:onClick="Card_click"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="100dp"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            app:layout_gravity="center"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="2dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp">>>
+
+            <ImageView
+                android:id="@+id/burger"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/burger"
+                android:layout_gravity="center" />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card2"
+            android:onClick="Card_click"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="100dp"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            app:layout_gravity="center"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="2dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp">
+
+            <ImageView
+                android:id="@+id/cocktail"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/cocktail"
+                android:layout_gravity="center" />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card3"
+            android:onClick="Card_click"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="100dp"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            app:layout_gravity="center"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="2dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp">
+
+            <ImageView
+                android:id="@+id/chapati"
+
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/chapati"
+                android:layout_gravity="center" />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card4"
+            android:onClick="Card_click"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="100dp"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            app:layout_gravity="center"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="2dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            >
+
+            <ImageView
+                android:id="@+id/pilau"
+
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/pilau"
+                android:layout_gravity="center" />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card5"
+            android:onClick="Card_click"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            app:layout_gravity="center"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="2dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp">
+
+            <ImageView
+                android:id="@+id/fruits"
+
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/fruits"
+                android:layout_gravity="center" />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card6"
+            android:onClick="Card_click"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            app:layout_gravity="center"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="2dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp">
+
+            <ImageView
+                android:id="@+id/pitza"
+
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/pitza"
+                android:layout_gravity="center" />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card7"
+            android:onClick="Card_click"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            app:layout_gravity="center"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="2dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp">
+
+            <ImageView
+                android:id="@+id/spagheti"
+
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/spaghetti"
+                android:layout_gravity="center" />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card8"
+            android:onClick="Card_click"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            app:layout_gravity="center"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="2dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp">
+
+            <ImageView
+                android:id="@+id/swissroll"
+
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/swiss_roll"
+                android:layout_gravity="center" />
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="196dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.75"
+        app:layout_constraintHorizontal_bias="1.0"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Pay" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/primaryColor"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.15"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.026">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/balance_sheet" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:textColor="#ffffff"
+            android:textSize="50dp"
+            android:text="Milk Bar"
+            android:background="@color/blue"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Total kshs. :"
+
+                android:textColor="#ffffff"
+                android:textSize="30dp" />
+            <TextView
+                android:id="@+id/amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:text="0" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
